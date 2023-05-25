@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineDelete } from 'react-icons/ai'
 
-const List = () => {
+const List = ({note}) => {
     return (
         <div>
             <h1 className='my-6 text-center text-cyan-500 text-3xl font-semibold'>Today's Checklist</h1>
