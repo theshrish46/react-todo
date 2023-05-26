@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  background: rgba(0, 255, 255, 0.282);
+  scrollbar-color: rgb(255, 255, 255);
+  scrollbar-width: 200px;
 }
